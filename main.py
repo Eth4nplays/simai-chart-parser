@@ -97,7 +97,6 @@ def save_list(filename, data):
             writer.writerow([val])
     print(f"Created {filename}")
 
-# --- RUN ---
 t, l, ty, d = parse_simai(INPUT_FILE)
 if t:
     save_list("data_time.csv", t)
