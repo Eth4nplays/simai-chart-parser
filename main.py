@@ -1,7 +1,7 @@
 import re
 import csv
 
-INPUT_FILE = "chart.simai"
+INPUT_FILE = "maidata.txt"
 
 def parse_simai(file_path):
     try:

@@ -7,7 +7,15 @@ Simai is a note syntax for simulating maimai charts.
 - Make sure Python is installed
 
 ## Usage guide
-- Create a new file named `chart.simai` in the same folder and paste the simai score data into it
+- Create a new file named `maidata.txt` in the same folder and paste the simai score data into it
+
+please remove the header text in the file before running the program, eg
+```
+&title=
+&artist=
+&first=
+...
+```
 - Run the Python program
 - There will be 4 different csv printed, with 4 different structured csvs.
     - data_duration.csv (duration of how long the note appears for)
